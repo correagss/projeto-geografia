@@ -1,0 +1,115 @@
+* {
+  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+.section {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #c0f4f4;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+
+.header h1 {
+    font-size: 100px;
+}
+
+.header p {
+    font-size: 50px;
+
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: green;
+     display: flex;
+     justify-content: center; /* centraliza horizontalmente */
+     gap: 100px; /* espaço entre os itens (opcional) */
+     padding: 10px 0; /* espaço vertical para ficar mais bonito */
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: green;
+}
+
+#relevo h2 {
+    font-size: 50px;
+}
+
+#relevo p {
+    font-size: 30px;
+}
+
+#clima h2 {
+  font-size: 50px;
+}
+
+#clima p {
+  font-size: 30px;
+}
+
+#vegetacao h2 {
+  font-size: 50px;
+}
+
+#vegetacao p {
+  font-size: 30px;
+}
+
+#hidrografia h2 {
+  font-size: 50px;
+}
+
+#hidrografia p {
+  font-size: 30px;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+  font-size: 30px;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
