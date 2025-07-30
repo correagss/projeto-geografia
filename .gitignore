@@ -1,0 +1,5 @@
+# Ignorar a pasta de dependências do Node.js
+node_modules
+
+# Arquivo de log do supervisor nodemon
+nodemon-debug.log
