@@ -1,4 +1,6 @@
 Projeto Geografia 🌍
+
+
 Um portal interativo sobre a geografia do Brasil, com informações dinâmicas sobre relevo, clima, vegetação e hidrografia, incluindo uma consulta em tempo real da previsão do tempo de qualquer cidade através da API da OpenWeather.
 
 ![alt text](image.png)
