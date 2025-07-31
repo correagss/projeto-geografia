@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #c0f4f4;
+}  
+
+.wrapper {
+  padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+
+
+.header {
+    padding: 1.875rem;
+    text-align: center;
+    color: black;
+}
+
+.header h1 {
+    font-size: 3rem;
+}
+
+.header p {
+    font-size: 1.25rem;
+}
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+    padding: 0.625rem 0; 
+}
+
+.topnav a {
+    
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1rem 1.5rem; 
+    text-decoration: none;
+    font-size: 1.125rem; 
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: green;
+}
+
+
+.card h2 {
+  font-size: 1.75rem; 
+}
+
+.card h3 {
+  font-size: 1.25rem; 
+}
+
+.card p {
+  font-size: 1rem; 
+  line-height: 1.6; 
+}
+
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+  font-size: 1.875rem; 
+  padding-right: 20px; 
+}
+
+.rightcolumn {
+  float: right;
+  width: 25%;
+  background-color: #c0f4f4;
+  padding-left: 20px; 
+  font-size: 1.875rem; 
+}
+
+.image-container {
+  display: flex;            
+  justify-content: center; 
+  gap: 1rem;               
+  flex-wrap: wrap;          
+  margin-top: 1.25rem;      
+}
+
+.image-container img {
+  width: 33%; 
+  max-width: 400px; 
+  height: 400px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+}
+
+.card {
+  margin-top: 1.25rem; 
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.footer {
+  padding: 1.25rem; 
+  text-align: center;
+  background-color: green;
+  margin-top: 20px
+  }
+
+
+.link-api {
+  display: block;      
+  text-align: center;  
+  
+  font-size: 1.5rem;   
+  font-weight: bold;   
+  
+  margin-top: 2rem;    
+  margin-bottom: 2rem; 
+  
+  color: green;      
+}
+
+
+.link-api:hover {
+  color: #000000;      
+  text-decoration: underline; 
+}
+
+@media (max-width: 768px) {
+  
+  
+  .leftcolumn, .rightcolumn {
+    width: 100%; 
+    float: none;   
+    padding: 0;    
+  }
+
+  
+  .header h1 {
+    font-size: 2.5rem 
+  }
+
+  .header p {
+    font-size: 1.125rem;
+  }
+  
+  
+  .card h2 {
+    font-size: 1.5rem;
+  }
+
+  
+  .topnav {
+      flex-direction: column;
+      gap: 0;
+  }
+  
+  .topnav a {
+      font-size: 1.5rem; 
+      padding: 1rem;
+  }
+
+  .image-container {
+  flex-direction: column; 
+  align-items: center;    
+}
+
+.image-container img {
+  width: 80%; 
+  max-width: 400px; 
+}
+}

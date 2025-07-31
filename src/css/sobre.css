@@ -1,0 +1,47 @@
+body {
+    background-color: #c0f4f4; 
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.pagina-sobre {
+ 
+  background-image: url('../assets/img/wallpaper/paisagem.jpg'); 
+  
+  
+  background-size: cover;          
+  background-position: center;     
+  background-attachment: fixed;    
+
+  
+  color: #ffffff; 
+}
+
+
+.pagina-sobre::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: -1; 
+}
+
+
+.pagina-sobre .card {
+  background-color: rgba(40, 40, 40, 0.7); 
+  border: 1px solid #ffffff50; 
+}
+
+
+.pagina-sobre .busca-container input {
+    color: #000000;
+}
