@@ -10,7 +10,7 @@
 
 **Visite a versão publicada do projeto clicando no link abaixo:**
 
-### [https://projeto-geografia.onrender.com/)](https://projeto-geografia-gabi.onrender.com)
+### https://projeto-geografia.onrender.com
 
 *(Lembre-se: por ser um plano gratuito, o primeiro carregamento pode levar até 30 segundos enquanto o servidor "acorda")*
 
